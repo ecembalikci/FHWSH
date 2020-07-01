@@ -1,0 +1,2 @@
+rootProject.name='FHWSH'
+include ':app'

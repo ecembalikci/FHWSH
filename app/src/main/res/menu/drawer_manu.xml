@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="@layout/activity_main">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_account"
+                android:title="Account" />
+        <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_menu_info"
+                android:title="Info" />
+        <item
+                android:id="@+id/nav_city"
+                android:icon="@drawable/ic_menu_city"
+                android:title="City" />
+        <item
+                android:id="@+id/nav_dorm"
+                android:icon="@drawable/ic_menu_dorm"
+                android:title="My Dorm" />
+        <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_menu_news"
+                android:title="News" />
+        <item
+                android:id="@+id/nav_lecture"
+                android:icon="@drawable/ic_menu_lecture"
+                android:title="Lectures" />
+
+        <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_chat"
+                android:title="Chat" />
+
+        <item
+                android:id="@+id/nav_people"
+                android:icon="@drawable/ic_menu_people"
+                android:title="People" />
+    </group>
+
+
+</menu>
